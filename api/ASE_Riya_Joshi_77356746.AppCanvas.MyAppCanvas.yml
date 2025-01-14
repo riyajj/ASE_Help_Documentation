@@ -1,0 +1,2017 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  commentId: T:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  id: MyAppCanvas
+  parent: ASE_Riya_Joshi_77356746.AppCanvas
+  children:
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.#ctor
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Circle(System.Int32,System.Boolean)
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Clear
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.DrawTo(System.Int32,System.Int32)
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Filled
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.GetGraphics
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MoveTo(System.Int32,System.Int32)
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenColour
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenSize
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Reset
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Set(System.Int32,System.Int32)
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetCanvas(System.Drawing.Bitmap,System.Drawing.Graphics)
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Tri(System.Int32,System.Int32)
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.WriteText(System.String)
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.XSIDE
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Xpos
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.YSIDE
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Ypos
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.getBitmap
+  langs:
+  - csharp
+  - vb
+  name: MyAppCanvas
+  nameWithType: MyAppCanvas
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  type: Class
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: MyAppCanvas
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 21
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Implementation of the <xref href="BOOSE.ICanvas" data-throw-if-not-resolved="false"></xref> interface for performing drawing operations on a bitmap canvas.
+  remarks: >-
+    This class provides methods for drawing various shapes (lines, circles, rectangles, triangles) and text on a canvas
+
+    represented by a bitmap. It supports operations such as setting the pen color and size, moving the pen to a new
+
+    position, and resetting the canvas to its initial state. The canvas is defined by a width (XSIDE) and height (YSIDE),
+
+    which are used to constrain drawing operations within the canvas boundaries. The class utilizes the <xref href="System.Drawing.Graphics" data-throw-if-not-resolved="false"></xref>
+
+    object to perform rendering on the canvas.
+  example: []
+  syntax:
+    content: 'public class MyAppCanvas : ICanvas'
+    content.vb: Public Class MyAppCanvas Implements ICanvas
+  inheritance:
+  - System.Object
+  implements:
+  - BOOSE.ICanvas
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.XSIDE
+  commentId: P:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.XSIDE
+  id: XSIDE
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: XSIDE
+  nameWithType: MyAppCanvas.XSIDE
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.XSIDE
+  type: Property
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: XSIDE
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 56
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: The width of the canvas.
+  remarks: >-
+    This defines the horizontal dimension of the canvas. It is used to validate the X positions during drawing operations.
+
+    The default value is 640 pixels.
+  example: []
+  syntax:
+    content: public int XSIDE { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property XSIDE As Integer
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.XSIDE*
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.YSIDE
+  commentId: P:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.YSIDE
+  id: YSIDE
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: YSIDE
+  nameWithType: MyAppCanvas.YSIDE
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.YSIDE
+  type: Property
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: YSIDE
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 65
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: The height of the canvas.
+  remarks: >-
+    This defines the vertical dimension of the canvas. It is used to validate the Y positions during drawing operations.
+
+    The default value is 480 pixels.
+  example: []
+  syntax:
+    content: public int YSIDE { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property YSIDE As Integer
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.YSIDE*
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.#ctor
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.#ctor
+  id: '#ctor'
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: MyAppCanvas()
+  nameWithType: MyAppCanvas.MyAppCanvas()
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MyAppCanvas()
+  type: Constructor
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: .ctor
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 131
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Initializes a new instance of the <xref href="ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas" data-throw-if-not-resolved="false"></xref> class with default canvas size.
+  remarks: >-
+    This constructor sets the canvas size to the default values defined by the constants `XSIDE` and `YSIDE`.
+
+    It also initializes the pen size to 1 and sets the pen color to black (RGB: 0, 0, 0).
+  example: []
+  syntax:
+    content: public MyAppCanvas()
+    content.vb: Public Sub New()
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.#ctor*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown if the canvas size cannot be set properly or if invalid values are provided for pen size or color.
+  nameWithType.vb: MyAppCanvas.New()
+  fullName.vb: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.New()
+  name.vb: New()
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Xpos
+  commentId: P:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Xpos
+  id: Xpos
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Xpos
+  nameWithType: MyAppCanvas.Xpos
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Xpos
+  type: Property
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Xpos
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 162
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Gets or sets the X position for the next drawing operation.
+  remarks: >-
+    This property controls the X coordinate of the pen position, which determines
+
+    the vertical position for subsequent drawing operations on the canvas.
+  example: []
+  syntax:
+    content: public int Xpos { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Xpos As Integer
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Xpos*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown if the Y position is outside the allowed canvas boundaries (less than 0 or greater than the canvas height).
+  implements:
+  - BOOSE.ICanvas.Xpos
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Filled
+  commentId: P:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Filled
+  id: Filled
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Filled
+  nameWithType: MyAppCanvas.Filled
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Filled
+  type: Property
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Filled
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 197
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  syntax:
+    content: public bool Filled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Filled As Boolean
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Filled*
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenSize
+  commentId: P:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenSize
+  id: PenSize
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: PenSize
+  nameWithType: MyAppCanvas.PenSize
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenSize
+  type: Property
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: PenSize
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 223
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Gets or sets the pen size, which determines the thickness of the lines drawn.
+  example: []
+  syntax:
+    content: public int PenSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: >-
+        The pen size, which is a positive integer. It determines how thick the lines will appear on the canvas.
+
+        A value greater than zero is required. If the value is zero or negative, an exception will be thrown.
+    content.vb: Public Property PenSize As Integer
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenSize*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown when the pen size is set to a value less than or equal to zero.
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Ypos
+  commentId: P:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Ypos
+  id: Ypos
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Ypos
+  nameWithType: MyAppCanvas.Ypos
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Ypos
+  type: Property
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Ypos
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 269
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Gets or sets the Y position for the next drawing operation.
+  remarks: >-
+    This property controls the Y coordinate of the pen position, which determines
+
+    the vertical position for subsequent drawing operations on the canvas.
+  example: []
+  syntax:
+    content: public int Ypos { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Ypos As Integer
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Ypos*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown if the Y position is outside the allowed canvas boundaries (less than 0 or greater than the canvas height).
+  implements:
+  - BOOSE.ICanvas.Ypos
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenColour
+  commentId: P:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenColour
+  id: PenColour
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: PenColour
+  nameWithType: MyAppCanvas.PenColour
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenColour
+  type: Property
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: PenColour
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 311
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Gets or sets the pen color for the next drawing operation.
+  remarks: >-
+    This property allows you to retrieve or modify the current pen color used for drawing operations.
+
+    The color is represented as a `Color` object, and it determines the color of lines, shapes,
+
+    and other drawn elements on the canvas.
+  example: []
+  syntax:
+    content: public object PenColour { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property PenColour As Object
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenColour*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: Thrown if the provided value for the pen color is not a valid `Color` object.
+  implements:
+  - BOOSE.ICanvas.PenColour
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Set(System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Set(System.Int32,System.Int32)
+  id: Set(System.Int32,System.Int32)
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Set(int, int)
+  nameWithType: MyAppCanvas.Set(int, int)
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Set(int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Set
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 351
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Sets the canvas size and initializes the drawing surface.
+  remarks: >-
+    This method initializes the canvas with the specified width and height. It also sets the starting
+
+    position of the drawing cursor (xPos, yPos) to the top-left corner (0, 0). After setting the canvas size,
+
+    it creates a new `Bitmap` object for drawing and a corresponding `Graphics` object. Additionally,
+
+    it clears the canvas to prepare for drawing.
+  example: []
+  syntax:
+    content: public void Set(int xsize, int ysize)
+    parameters:
+    - id: xsize
+      type: System.Int32
+      description: The width of the canvas, in pixels.
+    - id: ysize
+      type: System.Int32
+      description: The height of the canvas, in pixels.
+    content.vb: Public Sub [Set](xsize As Integer, ysize As Integer)
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Set*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: >-
+      Thrown if the width or height of the canvas is invalid (e.g., negative or zero), or if there is an error
+
+      during the initialization of the drawing surface.
+  implements:
+  - BOOSE.ICanvas.Set(System.Int32,System.Int32)
+  nameWithType.vb: MyAppCanvas.Set(Integer, Integer)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Set(Integer, Integer)
+  name.vb: Set(Integer, Integer)
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Circle(System.Int32,System.Boolean)
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Circle(System.Int32,System.Boolean)
+  id: Circle(System.Int32,System.Boolean)
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Circle(int, bool)
+  nameWithType: MyAppCanvas.Circle(int, bool)
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Circle(int, bool)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Circle
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 419
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: >-
+    Attempts to draw a circle at the current pen position, either filled or outlined, depending on the specified parameter.
+
+    Ensures the radius is valid and checks if the circle fits within the canvas boundaries.
+
+    If the radius is invalid or the circle exceeds the canvas size, a warning is logged, and drawing is skipped.
+  remarks: >-
+    The method ensures that drawing operations do not disrupt the program's flow. If the circle cannot
+
+    be drawn due to invalid input or canvas boundary constraints, the method logs a warning and continues execution.
+  example:
+  - >-
+    The following example demonstrates how to draw a filled circle with a radius of 50:
+
+    <pre><code class="lang-csharp">Circle(50, true);</code></pre>
+  syntax:
+    content: public void Circle(int radius, bool filled)
+    parameters:
+    - id: radius
+      type: System.Int32
+      description: >-
+        The radius of the circle. Must be a positive integer greater than zero.
+
+        If the radius is invalid, the circle will not be drawn, and a warning will be logged.
+    - id: filled
+      type: System.Boolean
+      description: >-
+        A boolean indicating whether the circle should be filled or outlined:
+
+        <ul><li><code>true</code>: Draws a filled circle.</li><li><code>false</code>: Draws an outlined circle.</li></ul>
+    content.vb: Public Sub Circle(radius As Integer, filled As Boolean)
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Circle*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: >-
+      This exception is caught internally to prevent program termination. It is used to log errors
+
+      for invalid radius values or when the circle exceeds canvas dimensions.
+  implements:
+  - BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+  nameWithType.vb: MyAppCanvas.Circle(Integer, Boolean)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Circle(Integer, Boolean)
+  name.vb: Circle(Integer, Boolean)
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Clear
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Clear
+  id: Clear
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: MyAppCanvas.Clear()
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Clear()
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Clear
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 471
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Clears the canvas by filling it with a default background color.
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Clear*
+  implements:
+  - BOOSE.ICanvas.Clear
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.DrawTo(System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.DrawTo(System.Int32,System.Int32)
+  id: DrawTo(System.Int32,System.Int32)
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawTo(int, int)
+  nameWithType: MyAppCanvas.DrawTo(int, int)
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.DrawTo(int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: DrawTo
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 501
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Draws a line from the current pen position to a specified endpoint on the canvas.
+  remarks: >-
+    The method updates the pen's current position to the specified endpoint after the line is drawn.
+
+    Subsequent drawing operations will use the new position as the starting point.
+
+    If the line cannot be drawn due to an uninitialized graphics context, the method logs a warning but does not interrupt execution.
+  example:
+  - >-
+    The following example demonstrates how to draw a line from the current pen position to the point (100, 50):
+
+    <pre><code class="lang-csharp">DrawTo(100, 50);</code></pre>
+  syntax:
+    content: public void DrawTo(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: The X coordinate of the endpoint of the line. This value represents the position along the horizontal axis.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate of the endpoint of the line. This value represents the position along the vertical axis.
+    content.vb: Public Sub DrawTo(x As Integer, y As Integer)
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.DrawTo*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown if the graphics context is not initialized or if the specified coordinates are outside the canvas boundaries.
+  implements:
+  - BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  nameWithType.vb: MyAppCanvas.DrawTo(Integer, Integer)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.DrawTo(Integer, Integer)
+  name.vb: DrawTo(Integer, Integer)
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.getBitmap
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.getBitmap
+  id: getBitmap
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: getBitmap()
+  nameWithType: MyAppCanvas.getBitmap()
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.getBitmap()
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: getBitmap
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 549
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Returns the Bitmap object representing the current drawing on the canvas.
+  remarks: >-
+    The Bitmap object returned by this method reflects the current state of the canvas,
+
+    including any drawings made with the pen. If no drawing has been done, it will return
+
+    an empty or unmodified bitmap.
+  example: []
+  syntax:
+    content: public object getBitmap()
+    return:
+      type: System.Object
+      description: >-
+        The Bitmap object associated with the current canvas. This object contains the pixel data
+
+        for the current drawing and can be used to save or manipulate the canvas image.
+    content.vb: Public Function getBitmap() As Object
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.getBitmap*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown if the Bitmap object has not been initialized or there is an issue with accessing it.
+  implements:
+  - BOOSE.ICanvas.getBitmap
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MoveTo(System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MoveTo(System.Int32,System.Int32)
+  id: MoveTo(System.Int32,System.Int32)
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: MoveTo(int, int)
+  nameWithType: MyAppCanvas.MoveTo(int, int)
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MoveTo(int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: MoveTo
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 594
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Moves the drawing cursor to a specified position on the canvas without drawing any lines.
+  remarks: >-
+    This method updates the current position of the pen to the specified coordinates `(x, y)` without performing any drawing operations.
+
+    It ensures that subsequent drawing operations begin from the new cursor position.
+
+    If the specified coordinates are outside the canvas boundaries, the position is not updated, and a warning is logged.
+  example:
+  - >-
+    The following example demonstrates how to move the pen to position (50, 100) without drawing:
+
+    <pre><code class="lang-csharp">MoveTo(50, 100);</code></pre>
+  syntax:
+    content: public void MoveTo(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: >-
+        The X coordinate to move the cursor to. Represents the horizontal position on the canvas.
+
+        Must be within the canvas boundaries.
+    - id: y
+      type: System.Int32
+      description: >-
+        The Y coordinate to move the cursor to. Represents the vertical position on the canvas.
+
+        Must be within the canvas boundaries.
+    content.vb: Public Sub MoveTo(x As Integer, y As Integer)
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MoveTo*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown if the specified coordinates are outside the canvas boundaries defined by `XSIDE` and `YSIDE`.
+  implements:
+  - BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  nameWithType.vb: MyAppCanvas.MoveTo(Integer, Integer)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  id: Rect(System.Int32,System.Int32,System.Boolean)
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Rect(int, int, bool)
+  nameWithType: MyAppCanvas.Rect(int, int, bool)
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Rect(int, int, bool)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Rect
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 649
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Draws a rectangle at the current cursor position with the specified dimensions and style (filled or outline).
+  remarks: >-
+    The rectangle is drawn starting from the current cursor position `(xPos, yPos)`.
+
+    If the rectangle's dimensions are invalid or it exceeds the canvas boundaries, it will not be drawn,
+
+    and a warning will be logged. This ensures the program continues execution without interruption.
+  example:
+  - >-
+    The following example demonstrates how to draw a filled rectangle with a width of 100 and height of 50:
+
+    <pre><code class="lang-csharp">Rect(100, 50, true);</code></pre>
+  syntax:
+    content: public void Rect(int width, int height, bool filled)
+    parameters:
+    - id: width
+      type: System.Int32
+      description: >-
+        The width of the rectangle. Must be a positive integer greater than zero.
+
+        If the value is invalid, the rectangle will not be drawn, and a warning will be logged.
+    - id: height
+      type: System.Int32
+      description: >-
+        The height of the rectangle. Must be a positive integer greater than zero.
+
+        If the value is invalid, the rectangle will not be drawn, and a warning will be logged.
+    - id: filled
+      type: System.Boolean
+      description: >-
+        A boolean indicating whether the rectangle should be filled or outlined:
+
+        <ul><li><code>true</code>: Draws a filled rectangle.</li><li><code>false</code>: Draws an outlined rectangle.</li></ul>
+    content.vb: Public Sub Rect(width As Integer, height As Integer, filled As Boolean)
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Rect*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown if the specified rectangle dimensions are invalid or if the rectangle exceeds canvas boundaries.
+  implements:
+  - BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  nameWithType.vb: MyAppCanvas.Rect(Integer, Integer, Boolean)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Rect(Integer, Integer, Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Reset
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Reset
+  id: Reset
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: MyAppCanvas.Reset()
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Reset()
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Reset
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 711
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Resets the canvas to its initial state by resetting the drawing cursor position to the top-left corner.
+  remarks: >-
+    This method resets the drawing cursor (pen position) to the initial position at (0, 0).
+
+    Any previous drawing operations will not be affected, but the next drawing operations
+
+    will begin from the top-left corner of the canvas.
+  example:
+  - >-
+    The following example demonstrates how to reset the canvas and start fresh with drawing:
+
+    <pre><code class="lang-csharp">Reset(); // Resets the drawing cursor to the top-left corner</code></pre>
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset()
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Reset*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: >-
+      Thrown if there is an issue with resetting the canvas. For example, if the canvas is in an
+
+      invalid state or has not been properly initialized, an exception could be thrown.
+  implements:
+  - BOOSE.ICanvas.Reset
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetCanvas(System.Drawing.Bitmap,System.Drawing.Graphics)
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetCanvas(System.Drawing.Bitmap,System.Drawing.Graphics)
+  id: SetCanvas(System.Drawing.Bitmap,System.Drawing.Graphics)
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: SetCanvas(Bitmap, Graphics)
+  nameWithType: MyAppCanvas.SetCanvas(Bitmap, Graphics)
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetCanvas(System.Drawing.Bitmap, System.Drawing.Graphics)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: SetCanvas
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 760
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: >-
+    Sets the canvas by assigning the provided <xref href="System.Drawing.Bitmap" data-throw-if-not-resolved="false"></xref> and <xref href="System.Drawing.Graphics" data-throw-if-not-resolved="false"></xref> objects
+
+    for drawing operations.
+  remarks: >-
+    This method initializes or reinitializes the internal canvas by setting the Bitmap and Graphics objects.
+
+    After setting the canvas, it clears the drawing surface with a white background to provide a fresh start.
+
+    If you need a specific background color, you can modify the method to accept a color parameter or change the
+
+    default behavior.
+  example:
+  - >-
+    The following example demonstrates how to initialize a canvas with a 500x500 Bitmap:
+
+    <pre><code class="lang-csharp">Bitmap bitmap = new Bitmap(500, 500);
+
+    Graphics graphics = Graphics.FromImage(bitmap);
+
+    SetCanvas(bitmap, graphics);</code></pre>
+  syntax:
+    content: public void SetCanvas(Bitmap newBitmap, Graphics newGraphics)
+    parameters:
+    - id: newBitmap
+      type: System.Drawing.Bitmap
+      description: >-
+        The <xref href="System.Drawing.Bitmap" data-throw-if-not-resolved="false"></xref> object to be used as the canvas surface.
+
+        This object holds the pixel data for the canvas.
+    - id: newGraphics
+      type: System.Drawing.Graphics
+      description: >-
+        The <xref href="System.Drawing.Graphics" data-throw-if-not-resolved="false"></xref> object to be used for rendering on the canvas.
+
+        This object provides drawing capabilities like shapes, text, and images.
+    content.vb: Public Sub SetCanvas(newBitmap As Bitmap, newGraphics As Graphics)
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetCanvas*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown if either <code class="paramref">newBitmap</code> or <code class="paramref">newGraphics</code> is <code>null</code>.
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.GetGraphics
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.GetGraphics
+  id: GetGraphics
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: GetGraphics()
+  nameWithType: MyAppCanvas.GetGraphics()
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.GetGraphics()
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: GetGraphics
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 819
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Returns the current Graphics object used for drawing on the canvas.
+  remarks: >-
+    This method allows access to the internal <xref href="System.Drawing.Graphics" data-throw-if-not-resolved="false"></xref> object used for drawing on the canvas.
+
+    If the graphics object has not been initialized (i.e., it is null), a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref> is thrown,
+
+    indicating that the drawing cannot proceed.
+  example:
+  - >-
+    The following example demonstrates how to retrieve the current Graphics object and
+
+    handle any potential exceptions if the graphics object is not initialized:
+
+    <pre><code class="lang-csharp">try
+
+    {
+        Graphics currentGraphics = GetGraphics();
+        // Use currentGraphics for drawing operations, if not null
+    }
+
+    catch (CanvasException ex)
+
+    {
+        Console.WriteLine($"Error: {ex.Message}"); // Handle the error (e.g., log it)
+    }</code></pre>
+  syntax:
+    content: public Graphics GetGraphics()
+    return:
+      type: System.Drawing.Graphics
+      description: The Graphics object associated with the current canvas.
+    content.vb: Public Function GetGraphics() As Graphics
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.GetGraphics*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: >-
+      Thrown if the graphics object is not initialized or is null. This exception is thrown
+
+      when there is an attempt to retrieve the <xref href="System.Drawing.Graphics" data-throw-if-not-resolved="false"></xref> object before it is set.
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  id: SetColour(System.Int32,System.Int32,System.Int32)
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: SetColour(int, int, int)
+  nameWithType: MyAppCanvas.SetColour(int, int, int)
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetColour(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: SetColour
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 862
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Sets the pen color using specified RGB values.
+  remarks: >-
+    This method allows precise control of the pen's color by specifying the intensity of
+
+    red, green, and blue components. If an invalid value is provided, an exception is thrown.
+
+    The pen is updated with the new color and retains the existing pen size.
+  example:
+  - >-
+    The following example demonstrates how to set the pen color to blue:
+
+    <pre><code class="lang-csharp">SetColour(0, 0, 255); // Sets the pen color to pure blue</code></pre>
+  syntax:
+    content: public void SetColour(int red, int green, int blue)
+    parameters:
+    - id: red
+      type: System.Int32
+      description: The red component of the color, ranging from 0 to 255.
+    - id: green
+      type: System.Int32
+      description: The green component of the color, ranging from 0 to 255.
+    - id: blue
+      type: System.Int32
+      description: The blue component of the color, ranging from 0 to 255.
+    content.vb: Public Sub SetColour(red As Integer, green As Integer, blue As Integer)
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetColour*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown when any of the RGB components are outside the valid range of 0 to 255.
+  implements:
+  - BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  nameWithType.vb: MyAppCanvas.SetColour(Integer, Integer, Integer)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetColour(Integer, Integer, Integer)
+  name.vb: SetColour(Integer, Integer, Integer)
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Tri(System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Tri(System.Int32,System.Int32)
+  id: Tri(System.Int32,System.Int32)
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Tri(int, int)
+  nameWithType: MyAppCanvas.Tri(int, int)
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Tri(int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Tri
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 903
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Draws a triangle within the specified bounding rectangle, ensuring it fits within the canvas boundaries.
+  remarks: >-
+    The method validates the triangle's width and height to ensure they are positive. It then checks if the triangle's
+
+    bounding points fit within the canvas boundaries. If any point exceeds the canvas size, a CanvasException is thrown.
+  example:
+  - >-
+    The following example demonstrates how to draw a triangle with width 100 and height 50:
+
+    <pre><code class="lang-csharp">Tri(100, 50); // Draws a triangle with base 100 and height 50</code></pre>
+  syntax:
+    content: public void Tri(int width, int height)
+    parameters:
+    - id: width
+      type: System.Int32
+      description: The width of the bounding rectangle, which defines the base of the triangle.
+    - id: height
+      type: System.Int32
+      description: The height of the bounding rectangle, which defines the height of the triangle.
+    content.vb: Public Sub Tri(width As Integer, height As Integer)
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Tri*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown if the triangle dimensions are invalid, exceed canvas boundaries, or are non-positive.
+  implements:
+  - BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+  nameWithType.vb: MyAppCanvas.Tri(Integer, Integer)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Tri(Integer, Integer)
+  name.vb: Tri(Integer, Integer)
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.WriteText(System.String)
+  commentId: M:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.WriteText(System.String)
+  id: WriteText(System.String)
+  parent: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: WriteText(string)
+  nameWithType: MyAppCanvas.WriteText(string)
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.WriteText(string)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: WriteText
+    path: ASE_Riya_Joshi_77356746/AppCanvas/MyAppCanvas.cs
+    startLine: 968
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746.AppCanvas
+  summary: Draws the specified text at the current cursor position on the canvas.
+  remarks: >-
+    The method checks whether the input text is valid (not null, empty, or whitespace). If the text exceeds the canvas boundaries,
+
+    a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref> is thrown. The method also ensures the graphics object is initialized before attempting
+
+    to draw the text.
+  example:
+  - >-
+    The following example demonstrates how to draw text at the current position:
+
+    <pre><code class="lang-csharp">WriteText("Hello, Canvas!"); // Draws the text "Hello, Canvas!" at the current cursor position</code></pre>
+  syntax:
+    content: public void WriteText(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text to be drawn on the canvas.
+    content.vb: Public Sub WriteText(text As String)
+  overload: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.WriteText*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown if the text is null, empty, or exceeds canvas boundaries. It is also thrown if the graphics object is not initialized.
+  implements:
+  - BOOSE.ICanvas.WriteText(System.String)
+  nameWithType.vb: MyAppCanvas.WriteText(String)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.WriteText(String)
+  name.vb: WriteText(String)
+references:
+- uid: BOOSE.ICanvas
+  commentId: T:BOOSE.ICanvas
+  parent: BOOSE
+  isExternal: true
+  name: ICanvas
+  nameWithType: ICanvas
+  fullName: BOOSE.ICanvas
+- uid: System.Drawing.Graphics
+  commentId: T:System.Drawing.Graphics
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.graphics
+  name: Graphics
+  nameWithType: Graphics
+  fullName: System.Drawing.Graphics
+- uid: ASE_Riya_Joshi_77356746.AppCanvas
+  commentId: N:ASE_Riya_Joshi_77356746.AppCanvas
+  href: ASE_Riya_Joshi_77356746.html
+  name: ASE_Riya_Joshi_77356746.AppCanvas
+  nameWithType: ASE_Riya_Joshi_77356746.AppCanvas
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746
+    name: ASE_Riya_Joshi_77356746
+    href: ASE_Riya_Joshi_77356746.html
+  - name: .
+  - uid: ASE_Riya_Joshi_77356746.AppCanvas
+    name: AppCanvas
+    href: ASE_Riya_Joshi_77356746.AppCanvas.html
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746
+    name: ASE_Riya_Joshi_77356746
+    href: ASE_Riya_Joshi_77356746.html
+  - name: .
+  - uid: ASE_Riya_Joshi_77356746.AppCanvas
+    name: AppCanvas
+    href: ASE_Riya_Joshi_77356746.AppCanvas.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.XSIDE*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.XSIDE
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_XSIDE
+  name: XSIDE
+  nameWithType: MyAppCanvas.XSIDE
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.XSIDE
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.YSIDE*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.YSIDE
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_YSIDE
+  name: YSIDE
+  nameWithType: MyAppCanvas.YSIDE
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.YSIDE
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  commentId: T:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  parent: ASE_Riya_Joshi_77356746.AppCanvas
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html
+  name: MyAppCanvas
+  nameWithType: MyAppCanvas
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+- uid: BOOSE.CanvasException
+  commentId: T:BOOSE.CanvasException
+  parent: BOOSE
+  isExternal: true
+  name: CanvasException
+  nameWithType: CanvasException
+  fullName: BOOSE.CanvasException
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.#ctor*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.#ctor
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas__ctor
+  name: MyAppCanvas
+  nameWithType: MyAppCanvas.MyAppCanvas
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MyAppCanvas
+  nameWithType.vb: MyAppCanvas.New
+  fullName.vb: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.New
+  name.vb: New
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Xpos*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Xpos
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_Xpos
+  name: Xpos
+  nameWithType: MyAppCanvas.Xpos
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Xpos
+- uid: BOOSE.ICanvas.Xpos
+  commentId: P:BOOSE.ICanvas.Xpos
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Xpos
+  nameWithType: ICanvas.Xpos
+  fullName: BOOSE.ICanvas.Xpos
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Filled*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Filled
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_Filled
+  name: Filled
+  nameWithType: MyAppCanvas.Filled
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Filled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenSize*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenSize
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_PenSize
+  name: PenSize
+  nameWithType: MyAppCanvas.PenSize
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenSize
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Ypos*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Ypos
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_Ypos
+  name: Ypos
+  nameWithType: MyAppCanvas.Ypos
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Ypos
+- uid: BOOSE.ICanvas.Ypos
+  commentId: P:BOOSE.ICanvas.Ypos
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Ypos
+  nameWithType: ICanvas.Ypos
+  fullName: BOOSE.ICanvas.Ypos
+- uid: System.InvalidCastException
+  commentId: T:System.InvalidCastException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidcastexception
+  name: InvalidCastException
+  nameWithType: InvalidCastException
+  fullName: System.InvalidCastException
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenColour*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenColour
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_PenColour
+  name: PenColour
+  nameWithType: MyAppCanvas.PenColour
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.PenColour
+- uid: BOOSE.ICanvas.PenColour
+  commentId: P:BOOSE.ICanvas.PenColour
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: PenColour
+  nameWithType: ICanvas.PenColour
+  fullName: BOOSE.ICanvas.PenColour
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Set*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Set
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_Set_System_Int32_System_Int32_
+  name: Set
+  nameWithType: MyAppCanvas.Set
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Set
+- uid: BOOSE.ICanvas.Set(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.Set(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Set(int, int)
+  nameWithType: ICanvas.Set(int, int)
+  fullName: BOOSE.ICanvas.Set(int, int)
+  nameWithType.vb: ICanvas.Set(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.Set(Integer, Integer)
+  name.vb: Set(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Set(System.Int32,System.Int32)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Set(System.Int32,System.Int32)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Circle*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Circle
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_Circle_System_Int32_System_Boolean_
+  name: Circle
+  nameWithType: MyAppCanvas.Circle
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Circle
+- uid: BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+  commentId: M:BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Circle(int, bool)
+  nameWithType: ICanvas.Circle(int, bool)
+  fullName: BOOSE.ICanvas.Circle(int, bool)
+  nameWithType.vb: ICanvas.Circle(Integer, Boolean)
+  fullName.vb: BOOSE.ICanvas.Circle(Integer, Boolean)
+  name.vb: Circle(Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Clear*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Clear
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_Clear
+  name: Clear
+  nameWithType: MyAppCanvas.Clear
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Clear
+- uid: BOOSE.ICanvas.Clear
+  commentId: M:BOOSE.ICanvas.Clear
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Clear()
+  nameWithType: ICanvas.Clear()
+  fullName: BOOSE.ICanvas.Clear()
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Clear
+    name: Clear
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Clear
+    name: Clear
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.DrawTo*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.DrawTo
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_DrawTo_System_Int32_System_Int32_
+  name: DrawTo
+  nameWithType: MyAppCanvas.DrawTo
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.DrawTo
+- uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawTo(int, int)
+  nameWithType: ICanvas.DrawTo(int, int)
+  fullName: BOOSE.ICanvas.DrawTo(int, int)
+  nameWithType.vb: ICanvas.DrawTo(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.DrawTo(Integer, Integer)
+  name.vb: DrawTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.getBitmap*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.getBitmap
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_getBitmap
+  name: getBitmap
+  nameWithType: MyAppCanvas.getBitmap
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.getBitmap
+- uid: BOOSE.ICanvas.getBitmap
+  commentId: M:BOOSE.ICanvas.getBitmap
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: getBitmap()
+  nameWithType: ICanvas.getBitmap()
+  fullName: BOOSE.ICanvas.getBitmap()
+  spec.csharp:
+  - uid: BOOSE.ICanvas.getBitmap
+    name: getBitmap
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.getBitmap
+    name: getBitmap
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MoveTo*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MoveTo
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_MoveTo_System_Int32_System_Int32_
+  name: MoveTo
+  nameWithType: MyAppCanvas.MoveTo
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.MoveTo
+- uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: MoveTo(int, int)
+  nameWithType: ICanvas.MoveTo(int, int)
+  fullName: BOOSE.ICanvas.MoveTo(int, int)
+  nameWithType.vb: ICanvas.MoveTo(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Rect*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Rect
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  name: Rect
+  nameWithType: MyAppCanvas.Rect
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Rect
+- uid: BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  commentId: M:BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Rect(int, int, bool)
+  nameWithType: ICanvas.Rect(int, int, bool)
+  fullName: BOOSE.ICanvas.Rect(int, int, bool)
+  nameWithType.vb: ICanvas.Rect(Integer, Integer, Boolean)
+  fullName.vb: BOOSE.ICanvas.Rect(Integer, Integer, Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Reset*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Reset
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_Reset
+  name: Reset
+  nameWithType: MyAppCanvas.Reset
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Reset
+- uid: BOOSE.ICanvas.Reset
+  commentId: M:BOOSE.ICanvas.Reset
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Reset()
+  nameWithType: ICanvas.Reset()
+  fullName: BOOSE.ICanvas.Reset()
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Reset
+    name: Reset
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Reset
+    name: Reset
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Drawing.Bitmap
+  commentId: T:System.Drawing.Bitmap
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
+  name: Bitmap
+  nameWithType: Bitmap
+  fullName: System.Drawing.Bitmap
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetCanvas*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetCanvas
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_SetCanvas_System_Drawing_Bitmap_System_Drawing_Graphics_
+  name: SetCanvas
+  nameWithType: MyAppCanvas.SetCanvas
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetCanvas
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.GetGraphics*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.GetGraphics
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_GetGraphics
+  name: GetGraphics
+  nameWithType: MyAppCanvas.GetGraphics
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.GetGraphics
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetColour*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetColour
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  name: SetColour
+  nameWithType: MyAppCanvas.SetColour
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.SetColour
+- uid: BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SetColour(int, int, int)
+  nameWithType: ICanvas.SetColour(int, int, int)
+  fullName: BOOSE.ICanvas.SetColour(int, int, int)
+  nameWithType.vb: ICanvas.SetColour(Integer, Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.SetColour(Integer, Integer, Integer)
+  name.vb: SetColour(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Tri*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Tri
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_Tri_System_Int32_System_Int32_
+  name: Tri
+  nameWithType: MyAppCanvas.Tri
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.Tri
+- uid: BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Tri(int, int)
+  nameWithType: ICanvas.Tri(int, int)
+  fullName: BOOSE.ICanvas.Tri(int, int)
+  nameWithType.vb: ICanvas.Tri(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.Tri(Integer, Integer)
+  name.vb: Tri(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+    name: Tri
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+    name: Tri
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.WriteText*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.WriteText
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html#ASE_Riya_Joshi_77356746_AppCanvas_MyAppCanvas_WriteText_System_String_
+  name: WriteText
+  nameWithType: MyAppCanvas.WriteText
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.WriteText
+- uid: BOOSE.ICanvas.WriteText(System.String)
+  commentId: M:BOOSE.ICanvas.WriteText(System.String)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: WriteText(string)
+  nameWithType: ICanvas.WriteText(string)
+  fullName: BOOSE.ICanvas.WriteText(string)
+  nameWithType.vb: ICanvas.WriteText(String)
+  fullName.vb: BOOSE.ICanvas.WriteText(String)
+  name.vb: WriteText(String)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.WriteText(System.String)
+    name: WriteText
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.WriteText(System.String)
+    name: WriteText
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

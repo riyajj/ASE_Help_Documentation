@@ -1,0 +1,1282 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Riya_Joshi_77356746.AppPeek
+  commentId: T:ASE_Riya_Joshi_77356746.AppPeek
+  id: AppPeek
+  parent: ASE_Riya_Joshi_77356746
+  children:
+  - ASE_Riya_Joshi_77356746.AppPeek.#ctor
+  - ASE_Riya_Joshi_77356746.AppPeek.CheckParameters(System.String[])
+  - ASE_Riya_Joshi_77356746.AppPeek.Compile
+  - ASE_Riya_Joshi_77356746.AppPeek.Execute
+  langs:
+  - csharp
+  - vb
+  name: AppPeek
+  nameWithType: AppPeek
+  fullName: ASE_Riya_Joshi_77356746.AppPeek
+  type: Class
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppPeek.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: AppPeek
+    path: ASE_Riya_Joshi_77356746/AppPeek.cs
+    startLine: 13
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746
+  summary: >-
+    Represents a Peek operation, inheriting from <xref href="ASE_Riya_Joshi_77356746.AppArray" data-throw-if-not-resolved="false"></xref>.
+
+    Provides functionality for parameter validation, compilation, and execution specific to the Peek operation.
+  example: []
+  syntax:
+    content: 'public class AppPeek : AppArray, ICommand'
+    content.vb: Public Class AppPeek Inherits AppArray Implements ICommand
+  inheritance:
+  - System.Object
+  - BOOSE.Command
+  - BOOSE.Evaluation
+  - ASE_Riya_Joshi_77356746.AppArray
+  implements:
+  - BOOSE.ICommand
+  inheritedMembers:
+  - ASE_Riya_Joshi_77356746.AppArray.PEEK
+  - ASE_Riya_Joshi_77356746.AppArray.POKE
+  - ASE_Riya_Joshi_77356746.AppArray.type
+  - ASE_Riya_Joshi_77356746.AppArray.IntValue
+  - ASE_Riya_Joshi_77356746.AppArray.RealValue
+  - ASE_Riya_Joshi_77356746.AppArray.rowsCount
+  - ASE_Riya_Joshi_77356746.AppArray.columnsCount
+  - ASE_Riya_Joshi_77356746.AppArray.intArray
+  - ASE_Riya_Joshi_77356746.AppArray.realArray
+  - ASE_Riya_Joshi_77356746.AppArray.pokeValue
+  - ASE_Riya_Joshi_77356746.AppArray.peekValue
+  - ASE_Riya_Joshi_77356746.AppArray.rowExpression
+  - ASE_Riya_Joshi_77356746.AppArray.columnExpression
+  - ASE_Riya_Joshi_77356746.AppArray.rowCurrent
+  - ASE_Riya_Joshi_77356746.AppArray.columnCurrent
+  - ASE_Riya_Joshi_77356746.AppArray.Rows
+  - ASE_Riya_Joshi_77356746.AppArray.Columns
+  - ASE_Riya_Joshi_77356746.AppArray.ArrayRestrictions
+  - ASE_Riya_Joshi_77356746.AppArray.ReduceRestrictionCounter
+  - ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersCompile(System.Boolean)
+  - ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersExecute(System.Boolean)
+  - ASE_Riya_Joshi_77356746.AppArray.SetIntArray(System.Int32,System.Int32,System.Int32)
+  - ASE_Riya_Joshi_77356746.AppArray.SetRealArray(System.Double,System.Int32,System.Int32)
+  - ASE_Riya_Joshi_77356746.AppArray.GetIntArray(System.Int32,System.Int32)
+  - ASE_Riya_Joshi_77356746.AppArray.GetRealArray(System.Int32,System.Int32)
+  - BOOSE.Evaluation.expression
+  - BOOSE.Evaluation.evaluatedExpression
+  - BOOSE.Evaluation.varName
+  - BOOSE.Evaluation.value
+  - BOOSE.Evaluation.ProcessExpression(System.String)
+  - BOOSE.Evaluation.Expression
+  - BOOSE.Evaluation.VarName
+  - BOOSE.Evaluation.Value
+  - BOOSE.Evaluation.Local
+  - BOOSE.Command.program
+  - BOOSE.Command.parameterList
+  - BOOSE.Command.parameters
+  - BOOSE.Command.paramsint
+  - BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  - BOOSE.Command.ProcessParameters(System.String)
+  - BOOSE.Command.ToString
+  - BOOSE.Command.Program
+  - BOOSE.Command.Name
+  - BOOSE.Command.ParameterList
+  - BOOSE.Command.Parameters
+  - BOOSE.Command.Paramsint
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ASE_Riya_Joshi_77356746.AppPeek.#ctor
+  commentId: M:ASE_Riya_Joshi_77356746.AppPeek.#ctor
+  id: '#ctor'
+  parent: ASE_Riya_Joshi_77356746.AppPeek
+  langs:
+  - csharp
+  - vb
+  name: AppPeek()
+  nameWithType: AppPeek.AppPeek()
+  fullName: ASE_Riya_Joshi_77356746.AppPeek.AppPeek()
+  type: Constructor
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppPeek.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: .ctor
+    path: ASE_Riya_Joshi_77356746/AppPeek.cs
+    startLine: 18
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746
+  summary: Initializes a new instance of the <xref href="ASE_Riya_Joshi_77356746.AppPeek" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public AppPeek()
+    content.vb: Public Sub New()
+  overload: ASE_Riya_Joshi_77356746.AppPeek.#ctor*
+  nameWithType.vb: AppPeek.New()
+  fullName.vb: ASE_Riya_Joshi_77356746.AppPeek.New()
+  name.vb: New()
+- uid: ASE_Riya_Joshi_77356746.AppPeek.CheckParameters(System.String[])
+  commentId: M:ASE_Riya_Joshi_77356746.AppPeek.CheckParameters(System.String[])
+  id: CheckParameters(System.String[])
+  parent: ASE_Riya_Joshi_77356746.AppPeek
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters(string[])
+  nameWithType: AppPeek.CheckParameters(string[])
+  fullName: ASE_Riya_Joshi_77356746.AppPeek.CheckParameters(string[])
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppPeek.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: CheckParameters
+    path: ASE_Riya_Joshi_77356746/AppPeek.cs
+    startLine: 29
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746
+  summary: Validates the provided parameters for the Peek operation.
+  example: []
+  syntax:
+    content: public override void CheckParameters(string[] parameters)
+    parameters:
+    - id: parameters
+      type: System.String[]
+      description: The array of parameters to validate.
+    content.vb: Public Overrides Sub CheckParameters(parameters As String())
+  overridden: ASE_Riya_Joshi_77356746.AppArray.CheckParameters(System.String[])
+  overload: ASE_Riya_Joshi_77356746.AppPeek.CheckParameters*
+  exceptions:
+  - type: System.NotImplementedException
+    commentId: T:System.NotImplementedException
+    description: Thrown to indicate that parameter validation for the Peek operation is not yet implemented.
+  nameWithType.vb: AppPeek.CheckParameters(String())
+  fullName.vb: ASE_Riya_Joshi_77356746.AppPeek.CheckParameters(String())
+  name.vb: CheckParameters(String())
+- uid: ASE_Riya_Joshi_77356746.AppPeek.Compile
+  commentId: M:ASE_Riya_Joshi_77356746.AppPeek.Compile
+  id: Compile
+  parent: ASE_Riya_Joshi_77356746.AppPeek
+  langs:
+  - csharp
+  - vb
+  name: Compile()
+  nameWithType: AppPeek.Compile()
+  fullName: ASE_Riya_Joshi_77356746.AppPeek.Compile()
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppPeek.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Compile
+    path: ASE_Riya_Joshi_77356746/AppPeek.cs
+    startLine: 37
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746
+  summary: Compiles the Peek operation, processing array parameters as required.
+  example: []
+  syntax:
+    content: public override void Compile()
+    content.vb: Public Overrides Sub Compile()
+  overridden: ASE_Riya_Joshi_77356746.AppArray.Compile
+  overload: ASE_Riya_Joshi_77356746.AppPeek.Compile*
+- uid: ASE_Riya_Joshi_77356746.AppPeek.Execute
+  commentId: M:ASE_Riya_Joshi_77356746.AppPeek.Execute
+  id: Execute
+  parent: ASE_Riya_Joshi_77356746.AppPeek
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: AppPeek.Execute()
+  fullName: ASE_Riya_Joshi_77356746.AppPeek.Execute()
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Joshi_77356746/ASE_Riya_Joshi_77356746/AppPeek.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riyajj.git
+    id: Execute
+    path: ASE_Riya_Joshi_77356746/AppPeek.cs
+    startLine: 48
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+  namespace: ASE_Riya_Joshi_77356746
+  summary: Executes the Peek operation, retrieving and updating variables based on the array type.
+  example: []
+  syntax:
+    content: public override void Execute()
+    content.vb: Public Overrides Sub Execute()
+  overridden: ASE_Riya_Joshi_77356746.AppArray.Execute
+  overload: ASE_Riya_Joshi_77356746.AppPeek.Execute*
+  exceptions:
+  - type: BOOSE.CommandException
+    commentId: T:BOOSE.CommandException
+    description: Thrown when an unsupported array type is encountered during the Peek operation.
+references:
+- uid: ASE_Riya_Joshi_77356746.AppArray
+  commentId: T:ASE_Riya_Joshi_77356746.AppArray
+  parent: ASE_Riya_Joshi_77356746
+  href: ASE_Riya_Joshi_77356746.AppArray.html
+  name: AppArray
+  nameWithType: AppArray
+  fullName: ASE_Riya_Joshi_77356746.AppArray
+- uid: ASE_Riya_Joshi_77356746
+  commentId: N:ASE_Riya_Joshi_77356746
+  href: ASE_Riya_Joshi_77356746.html
+  name: ASE_Riya_Joshi_77356746
+  nameWithType: ASE_Riya_Joshi_77356746
+  fullName: ASE_Riya_Joshi_77356746
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: BOOSE.Command
+  commentId: T:BOOSE.Command
+  parent: BOOSE
+  isExternal: true
+  name: Command
+  nameWithType: Command
+  fullName: BOOSE.Command
+- uid: BOOSE.Evaluation
+  commentId: T:BOOSE.Evaluation
+  parent: BOOSE
+  isExternal: true
+  name: Evaluation
+  nameWithType: Evaluation
+  fullName: BOOSE.Evaluation
+- uid: BOOSE.ICommand
+  commentId: T:BOOSE.ICommand
+  parent: BOOSE
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: BOOSE.ICommand
+- uid: ASE_Riya_Joshi_77356746.AppArray.PEEK
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.PEEK
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_PEEK
+  name: PEEK
+  nameWithType: AppArray.PEEK
+  fullName: ASE_Riya_Joshi_77356746.AppArray.PEEK
+- uid: ASE_Riya_Joshi_77356746.AppArray.POKE
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.POKE
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_POKE
+  name: POKE
+  nameWithType: AppArray.POKE
+  fullName: ASE_Riya_Joshi_77356746.AppArray.POKE
+- uid: ASE_Riya_Joshi_77356746.AppArray.type
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.type
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_type
+  name: type
+  nameWithType: AppArray.type
+  fullName: ASE_Riya_Joshi_77356746.AppArray.type
+- uid: ASE_Riya_Joshi_77356746.AppArray.IntValue
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.IntValue
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_IntValue
+  name: IntValue
+  nameWithType: AppArray.IntValue
+  fullName: ASE_Riya_Joshi_77356746.AppArray.IntValue
+- uid: ASE_Riya_Joshi_77356746.AppArray.RealValue
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.RealValue
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_RealValue
+  name: RealValue
+  nameWithType: AppArray.RealValue
+  fullName: ASE_Riya_Joshi_77356746.AppArray.RealValue
+- uid: ASE_Riya_Joshi_77356746.AppArray.rowsCount
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.rowsCount
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_rowsCount
+  name: rowsCount
+  nameWithType: AppArray.rowsCount
+  fullName: ASE_Riya_Joshi_77356746.AppArray.rowsCount
+- uid: ASE_Riya_Joshi_77356746.AppArray.columnsCount
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.columnsCount
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_columnsCount
+  name: columnsCount
+  nameWithType: AppArray.columnsCount
+  fullName: ASE_Riya_Joshi_77356746.AppArray.columnsCount
+- uid: ASE_Riya_Joshi_77356746.AppArray.intArray
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.intArray
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_intArray
+  name: intArray
+  nameWithType: AppArray.intArray
+  fullName: ASE_Riya_Joshi_77356746.AppArray.intArray
+- uid: ASE_Riya_Joshi_77356746.AppArray.realArray
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.realArray
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_realArray
+  name: realArray
+  nameWithType: AppArray.realArray
+  fullName: ASE_Riya_Joshi_77356746.AppArray.realArray
+- uid: ASE_Riya_Joshi_77356746.AppArray.pokeValue
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.pokeValue
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_pokeValue
+  name: pokeValue
+  nameWithType: AppArray.pokeValue
+  fullName: ASE_Riya_Joshi_77356746.AppArray.pokeValue
+- uid: ASE_Riya_Joshi_77356746.AppArray.peekValue
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.peekValue
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_peekValue
+  name: peekValue
+  nameWithType: AppArray.peekValue
+  fullName: ASE_Riya_Joshi_77356746.AppArray.peekValue
+- uid: ASE_Riya_Joshi_77356746.AppArray.rowExpression
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.rowExpression
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_rowExpression
+  name: rowExpression
+  nameWithType: AppArray.rowExpression
+  fullName: ASE_Riya_Joshi_77356746.AppArray.rowExpression
+- uid: ASE_Riya_Joshi_77356746.AppArray.columnExpression
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.columnExpression
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_columnExpression
+  name: columnExpression
+  nameWithType: AppArray.columnExpression
+  fullName: ASE_Riya_Joshi_77356746.AppArray.columnExpression
+- uid: ASE_Riya_Joshi_77356746.AppArray.rowCurrent
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.rowCurrent
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_rowCurrent
+  name: rowCurrent
+  nameWithType: AppArray.rowCurrent
+  fullName: ASE_Riya_Joshi_77356746.AppArray.rowCurrent
+- uid: ASE_Riya_Joshi_77356746.AppArray.columnCurrent
+  commentId: F:ASE_Riya_Joshi_77356746.AppArray.columnCurrent
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_columnCurrent
+  name: columnCurrent
+  nameWithType: AppArray.columnCurrent
+  fullName: ASE_Riya_Joshi_77356746.AppArray.columnCurrent
+- uid: ASE_Riya_Joshi_77356746.AppArray.Rows
+  commentId: P:ASE_Riya_Joshi_77356746.AppArray.Rows
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_Rows
+  name: Rows
+  nameWithType: AppArray.Rows
+  fullName: ASE_Riya_Joshi_77356746.AppArray.Rows
+- uid: ASE_Riya_Joshi_77356746.AppArray.Columns
+  commentId: P:ASE_Riya_Joshi_77356746.AppArray.Columns
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_Columns
+  name: Columns
+  nameWithType: AppArray.Columns
+  fullName: ASE_Riya_Joshi_77356746.AppArray.Columns
+- uid: ASE_Riya_Joshi_77356746.AppArray.ArrayRestrictions
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.ArrayRestrictions
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ArrayRestrictions
+  name: ArrayRestrictions()
+  nameWithType: AppArray.ArrayRestrictions()
+  fullName: ASE_Riya_Joshi_77356746.AppArray.ArrayRestrictions()
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.ArrayRestrictions
+    name: ArrayRestrictions
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ArrayRestrictions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.ArrayRestrictions
+    name: ArrayRestrictions
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ArrayRestrictions
+  - name: (
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppArray.ReduceRestrictionCounter
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.ReduceRestrictionCounter
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ReduceRestrictionCounter
+  name: ReduceRestrictionCounter()
+  nameWithType: AppArray.ReduceRestrictionCounter()
+  fullName: ASE_Riya_Joshi_77356746.AppArray.ReduceRestrictionCounter()
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.ReduceRestrictionCounter
+    name: ReduceRestrictionCounter
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ReduceRestrictionCounter
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.ReduceRestrictionCounter
+    name: ReduceRestrictionCounter
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ReduceRestrictionCounter
+  - name: (
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersCompile(System.Boolean)
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersCompile(System.Boolean)
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  isExternal: true
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ProcessArrayParametersCompile_System_Boolean_
+  name: ProcessArrayParametersCompile(bool)
+  nameWithType: AppArray.ProcessArrayParametersCompile(bool)
+  fullName: ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersCompile(bool)
+  nameWithType.vb: AppArray.ProcessArrayParametersCompile(Boolean)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersCompile(Boolean)
+  name.vb: ProcessArrayParametersCompile(Boolean)
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersCompile(System.Boolean)
+    name: ProcessArrayParametersCompile
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ProcessArrayParametersCompile_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersCompile(System.Boolean)
+    name: ProcessArrayParametersCompile
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ProcessArrayParametersCompile_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersExecute(System.Boolean)
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersExecute(System.Boolean)
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  isExternal: true
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ProcessArrayParametersExecute_System_Boolean_
+  name: ProcessArrayParametersExecute(bool)
+  nameWithType: AppArray.ProcessArrayParametersExecute(bool)
+  fullName: ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersExecute(bool)
+  nameWithType.vb: AppArray.ProcessArrayParametersExecute(Boolean)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersExecute(Boolean)
+  name.vb: ProcessArrayParametersExecute(Boolean)
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersExecute(System.Boolean)
+    name: ProcessArrayParametersExecute
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ProcessArrayParametersExecute_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.ProcessArrayParametersExecute(System.Boolean)
+    name: ProcessArrayParametersExecute
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_ProcessArrayParametersExecute_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppArray.SetIntArray(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.SetIntArray(System.Int32,System.Int32,System.Int32)
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  isExternal: true
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_SetIntArray_System_Int32_System_Int32_System_Int32_
+  name: SetIntArray(int, int, int)
+  nameWithType: AppArray.SetIntArray(int, int, int)
+  fullName: ASE_Riya_Joshi_77356746.AppArray.SetIntArray(int, int, int)
+  nameWithType.vb: AppArray.SetIntArray(Integer, Integer, Integer)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppArray.SetIntArray(Integer, Integer, Integer)
+  name.vb: SetIntArray(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.SetIntArray(System.Int32,System.Int32,System.Int32)
+    name: SetIntArray
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_SetIntArray_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.SetIntArray(System.Int32,System.Int32,System.Int32)
+    name: SetIntArray
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_SetIntArray_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppArray.SetRealArray(System.Double,System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.SetRealArray(System.Double,System.Int32,System.Int32)
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  isExternal: true
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_SetRealArray_System_Double_System_Int32_System_Int32_
+  name: SetRealArray(double, int, int)
+  nameWithType: AppArray.SetRealArray(double, int, int)
+  fullName: ASE_Riya_Joshi_77356746.AppArray.SetRealArray(double, int, int)
+  nameWithType.vb: AppArray.SetRealArray(Double, Integer, Integer)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppArray.SetRealArray(Double, Integer, Integer)
+  name.vb: SetRealArray(Double, Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.SetRealArray(System.Double,System.Int32,System.Int32)
+    name: SetRealArray
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_SetRealArray_System_Double_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.SetRealArray(System.Double,System.Int32,System.Int32)
+    name: SetRealArray
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_SetRealArray_System_Double_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppArray.GetIntArray(System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.GetIntArray(System.Int32,System.Int32)
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  isExternal: true
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_GetIntArray_System_Int32_System_Int32_
+  name: GetIntArray(int, int)
+  nameWithType: AppArray.GetIntArray(int, int)
+  fullName: ASE_Riya_Joshi_77356746.AppArray.GetIntArray(int, int)
+  nameWithType.vb: AppArray.GetIntArray(Integer, Integer)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppArray.GetIntArray(Integer, Integer)
+  name.vb: GetIntArray(Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.GetIntArray(System.Int32,System.Int32)
+    name: GetIntArray
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_GetIntArray_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.GetIntArray(System.Int32,System.Int32)
+    name: GetIntArray
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_GetIntArray_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppArray.GetRealArray(System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.GetRealArray(System.Int32,System.Int32)
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  isExternal: true
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_GetRealArray_System_Int32_System_Int32_
+  name: GetRealArray(int, int)
+  nameWithType: AppArray.GetRealArray(int, int)
+  fullName: ASE_Riya_Joshi_77356746.AppArray.GetRealArray(int, int)
+  nameWithType.vb: AppArray.GetRealArray(Integer, Integer)
+  fullName.vb: ASE_Riya_Joshi_77356746.AppArray.GetRealArray(Integer, Integer)
+  name.vb: GetRealArray(Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.GetRealArray(System.Int32,System.Int32)
+    name: GetRealArray
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_GetRealArray_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.GetRealArray(System.Int32,System.Int32)
+    name: GetRealArray
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_GetRealArray_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.Evaluation.expression
+  commentId: F:BOOSE.Evaluation.expression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: expression
+  nameWithType: Evaluation.expression
+  fullName: BOOSE.Evaluation.expression
+- uid: BOOSE.Evaluation.evaluatedExpression
+  commentId: F:BOOSE.Evaluation.evaluatedExpression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: evaluatedExpression
+  nameWithType: Evaluation.evaluatedExpression
+  fullName: BOOSE.Evaluation.evaluatedExpression
+- uid: BOOSE.Evaluation.varName
+  commentId: F:BOOSE.Evaluation.varName
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: varName
+  nameWithType: Evaluation.varName
+  fullName: BOOSE.Evaluation.varName
+- uid: BOOSE.Evaluation.value
+  commentId: F:BOOSE.Evaluation.value
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: value
+  nameWithType: Evaluation.value
+  fullName: BOOSE.Evaluation.value
+- uid: BOOSE.Evaluation.ProcessExpression(System.String)
+  commentId: M:BOOSE.Evaluation.ProcessExpression(System.String)
+  parent: BOOSE.Evaluation
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ProcessExpression(string)
+  nameWithType: Evaluation.ProcessExpression(string)
+  fullName: BOOSE.Evaluation.ProcessExpression(string)
+  nameWithType.vb: Evaluation.ProcessExpression(String)
+  fullName.vb: BOOSE.Evaluation.ProcessExpression(String)
+  name.vb: ProcessExpression(String)
+  spec.csharp:
+  - uid: BOOSE.Evaluation.ProcessExpression(System.String)
+    name: ProcessExpression
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Evaluation.ProcessExpression(System.String)
+    name: ProcessExpression
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Evaluation.Expression
+  commentId: P:BOOSE.Evaluation.Expression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Expression
+  nameWithType: Evaluation.Expression
+  fullName: BOOSE.Evaluation.Expression
+- uid: BOOSE.Evaluation.VarName
+  commentId: P:BOOSE.Evaluation.VarName
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: VarName
+  nameWithType: Evaluation.VarName
+  fullName: BOOSE.Evaluation.VarName
+- uid: BOOSE.Evaluation.Value
+  commentId: P:BOOSE.Evaluation.Value
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Value
+  nameWithType: Evaluation.Value
+  fullName: BOOSE.Evaluation.Value
+- uid: BOOSE.Evaluation.Local
+  commentId: P:BOOSE.Evaluation.Local
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Local
+  nameWithType: Evaluation.Local
+  fullName: BOOSE.Evaluation.Local
+- uid: BOOSE.Command.program
+  commentId: F:BOOSE.Command.program
+  parent: BOOSE.Command
+  isExternal: true
+  name: program
+  nameWithType: Command.program
+  fullName: BOOSE.Command.program
+- uid: BOOSE.Command.parameterList
+  commentId: F:BOOSE.Command.parameterList
+  parent: BOOSE.Command
+  isExternal: true
+  name: parameterList
+  nameWithType: Command.parameterList
+  fullName: BOOSE.Command.parameterList
+- uid: BOOSE.Command.parameters
+  commentId: F:BOOSE.Command.parameters
+  parent: BOOSE.Command
+  isExternal: true
+  name: parameters
+  nameWithType: Command.parameters
+  fullName: BOOSE.Command.parameters
+- uid: BOOSE.Command.paramsint
+  commentId: F:BOOSE.Command.paramsint
+  parent: BOOSE.Command
+  isExternal: true
+  name: paramsint
+  nameWithType: Command.paramsint
+  fullName: BOOSE.Command.paramsint
+- uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  commentId: M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  parent: BOOSE.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: Set(StoredProgram, string)
+  nameWithType: Command.Set(StoredProgram, string)
+  fullName: BOOSE.Command.Set(BOOSE.StoredProgram, string)
+  nameWithType.vb: Command.Set(StoredProgram, String)
+  fullName.vb: BOOSE.Command.Set(BOOSE.StoredProgram, String)
+  name.vb: Set(StoredProgram, String)
+  spec.csharp:
+  - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: BOOSE.StoredProgram
+    name: StoredProgram
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: BOOSE.StoredProgram
+    name: StoredProgram
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Command.ProcessParameters(System.String)
+  commentId: M:BOOSE.Command.ProcessParameters(System.String)
+  parent: BOOSE.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ProcessParameters(string)
+  nameWithType: Command.ProcessParameters(string)
+  fullName: BOOSE.Command.ProcessParameters(string)
+  nameWithType.vb: Command.ProcessParameters(String)
+  fullName.vb: BOOSE.Command.ProcessParameters(String)
+  name.vb: ProcessParameters(String)
+  spec.csharp:
+  - uid: BOOSE.Command.ProcessParameters(System.String)
+    name: ProcessParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.ProcessParameters(System.String)
+    name: ProcessParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Command.ToString
+  commentId: M:BOOSE.Command.ToString
+  parent: BOOSE.Command
+  isExternal: true
+  name: ToString()
+  nameWithType: Command.ToString()
+  fullName: BOOSE.Command.ToString()
+  spec.csharp:
+  - uid: BOOSE.Command.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.Command.Program
+  commentId: P:BOOSE.Command.Program
+  parent: BOOSE.Command
+  isExternal: true
+  name: Program
+  nameWithType: Command.Program
+  fullName: BOOSE.Command.Program
+- uid: BOOSE.Command.Name
+  commentId: P:BOOSE.Command.Name
+  parent: BOOSE.Command
+  isExternal: true
+  name: Name
+  nameWithType: Command.Name
+  fullName: BOOSE.Command.Name
+- uid: BOOSE.Command.ParameterList
+  commentId: P:BOOSE.Command.ParameterList
+  parent: BOOSE.Command
+  isExternal: true
+  name: ParameterList
+  nameWithType: Command.ParameterList
+  fullName: BOOSE.Command.ParameterList
+- uid: BOOSE.Command.Parameters
+  commentId: P:BOOSE.Command.Parameters
+  parent: BOOSE.Command
+  isExternal: true
+  name: Parameters
+  nameWithType: Command.Parameters
+  fullName: BOOSE.Command.Parameters
+- uid: BOOSE.Command.Paramsint
+  commentId: P:BOOSE.Command.Paramsint
+  parent: BOOSE.Command
+  isExternal: true
+  name: Paramsint
+  nameWithType: Command.Paramsint
+  fullName: BOOSE.Command.Paramsint
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: ASE_Riya_Joshi_77356746.AppPeek
+  commentId: T:ASE_Riya_Joshi_77356746.AppPeek
+  href: ASE_Riya_Joshi_77356746.AppPeek.html
+  name: AppPeek
+  nameWithType: AppPeek
+  fullName: ASE_Riya_Joshi_77356746.AppPeek
+- uid: ASE_Riya_Joshi_77356746.AppPeek.#ctor*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppPeek.#ctor
+  href: ASE_Riya_Joshi_77356746.AppPeek.html#ASE_Riya_Joshi_77356746_AppPeek__ctor
+  name: AppPeek
+  nameWithType: AppPeek.AppPeek
+  fullName: ASE_Riya_Joshi_77356746.AppPeek.AppPeek
+  nameWithType.vb: AppPeek.New
+  fullName.vb: ASE_Riya_Joshi_77356746.AppPeek.New
+  name.vb: New
+- uid: System.NotImplementedException
+  commentId: T:System.NotImplementedException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.notimplementedexception
+  name: NotImplementedException
+  nameWithType: NotImplementedException
+  fullName: System.NotImplementedException
+- uid: ASE_Riya_Joshi_77356746.AppArray.CheckParameters(System.String[])
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.CheckParameters(System.String[])
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  isExternal: true
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_CheckParameters_System_String___
+  name: CheckParameters(string[])
+  nameWithType: AppArray.CheckParameters(string[])
+  fullName: ASE_Riya_Joshi_77356746.AppArray.CheckParameters(string[])
+  nameWithType.vb: AppArray.CheckParameters(String())
+  fullName.vb: ASE_Riya_Joshi_77356746.AppArray.CheckParameters(String())
+  name.vb: CheckParameters(String())
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.CheckParameters(System.String[])
+    name: CheckParameters
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_CheckParameters_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.CheckParameters(System.String[])
+    name: CheckParameters
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_CheckParameters_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppPeek.CheckParameters*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppPeek.CheckParameters
+  href: ASE_Riya_Joshi_77356746.AppPeek.html#ASE_Riya_Joshi_77356746_AppPeek_CheckParameters_System_String___
+  name: CheckParameters
+  nameWithType: AppPeek.CheckParameters
+  fullName: ASE_Riya_Joshi_77356746.AppPeek.CheckParameters
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppArray.Compile
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.Compile
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_Compile
+  name: Compile()
+  nameWithType: AppArray.Compile()
+  fullName: ASE_Riya_Joshi_77356746.AppArray.Compile()
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.Compile
+    name: Compile
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_Compile
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.Compile
+    name: Compile
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_Compile
+  - name: (
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppPeek.Compile*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppPeek.Compile
+  href: ASE_Riya_Joshi_77356746.AppPeek.html#ASE_Riya_Joshi_77356746_AppPeek_Compile
+  name: Compile
+  nameWithType: AppPeek.Compile
+  fullName: ASE_Riya_Joshi_77356746.AppPeek.Compile
+- uid: BOOSE.CommandException
+  commentId: T:BOOSE.CommandException
+  isExternal: true
+  name: CommandException
+  nameWithType: CommandException
+  fullName: BOOSE.CommandException
+- uid: ASE_Riya_Joshi_77356746.AppArray.Execute
+  commentId: M:ASE_Riya_Joshi_77356746.AppArray.Execute
+  parent: ASE_Riya_Joshi_77356746.AppArray
+  href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_Execute
+  name: Execute()
+  nameWithType: AppArray.Execute()
+  fullName: ASE_Riya_Joshi_77356746.AppArray.Execute()
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.Execute
+    name: Execute
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_Execute
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746.AppArray.Execute
+    name: Execute
+    href: ASE_Riya_Joshi_77356746.AppArray.html#ASE_Riya_Joshi_77356746_AppArray_Execute
+  - name: (
+  - name: )
+- uid: ASE_Riya_Joshi_77356746.AppPeek.Execute*
+  commentId: Overload:ASE_Riya_Joshi_77356746.AppPeek.Execute
+  href: ASE_Riya_Joshi_77356746.AppPeek.html#ASE_Riya_Joshi_77356746_AppPeek_Execute
+  name: Execute
+  nameWithType: AppPeek.Execute
+  fullName: ASE_Riya_Joshi_77356746.AppPeek.Execute

@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Riya_Joshi_77356746.AppCanvas
+  commentId: N:ASE_Riya_Joshi_77356746.AppCanvas
+  id: ASE_Riya_Joshi_77356746.AppCanvas
+  children:
+  - ASE_Riya_Joshi_77356746.AppCanvas.AppParser
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  - ASE_Riya_Joshi_77356746.AppCanvas.MyAppCommandFactory
+  langs:
+  - csharp
+  - vb
+  name: ASE_Riya_Joshi_77356746.AppCanvas
+  nameWithType: ASE_Riya_Joshi_77356746.AppCanvas
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas
+  type: Namespace
+  assemblies:
+  - ASE_Riya_Joshi_77356746
+references:
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.AppParser
+  commentId: T:ASE_Riya_Joshi_77356746.AppCanvas.AppParser
+  href: ASE_Riya_Joshi_77356746.AppCanvas.AppParser.html
+  name: AppParser
+  nameWithType: AppParser
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.AppParser
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  commentId: T:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+  parent: ASE_Riya_Joshi_77356746.AppCanvas
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas.html
+  name: MyAppCanvas
+  nameWithType: MyAppCanvas
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCanvas
+- uid: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCommandFactory
+  commentId: T:ASE_Riya_Joshi_77356746.AppCanvas.MyAppCommandFactory
+  href: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCommandFactory.html
+  name: MyAppCommandFactory
+  nameWithType: MyAppCommandFactory
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas.MyAppCommandFactory
+- uid: ASE_Riya_Joshi_77356746.AppCanvas
+  commentId: N:ASE_Riya_Joshi_77356746.AppCanvas
+  href: ASE_Riya_Joshi_77356746.html
+  name: ASE_Riya_Joshi_77356746.AppCanvas
+  nameWithType: ASE_Riya_Joshi_77356746.AppCanvas
+  fullName: ASE_Riya_Joshi_77356746.AppCanvas
+  spec.csharp:
+  - uid: ASE_Riya_Joshi_77356746
+    name: ASE_Riya_Joshi_77356746
+    href: ASE_Riya_Joshi_77356746.html
+  - name: .
+  - uid: ASE_Riya_Joshi_77356746.AppCanvas
+    name: AppCanvas
+    href: ASE_Riya_Joshi_77356746.AppCanvas.html
+  spec.vb:
+  - uid: ASE_Riya_Joshi_77356746
+    name: ASE_Riya_Joshi_77356746
+    href: ASE_Riya_Joshi_77356746.html
+  - name: .
+  - uid: ASE_Riya_Joshi_77356746.AppCanvas
+    name: AppCanvas
+    href: ASE_Riya_Joshi_77356746.AppCanvas.html
